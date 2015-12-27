@@ -1,28 +1,29 @@
 ---
 title: "Analysis of the mtcars dataset"
-author: "Aman Sinha"
+author: "Aman Sinha 27/12/2015"
 highlighter: highlight.js
-job: Reproducible Pitch Presentation
 knit: slidify::knit2slides
-mode: selfcontained
+mode: standalone
 github:
   user:amansinha16
   repo:developing-data-products
 hitheme: tomorrow
-subtitle: variables and MPG
+subtitle: 
 framework: io2012
-widgets: bootstrap
+widgets: []
  
 ---
 
 
 
-### See the Regression Models Course Project  
+### This presentation is linked to an application designed for a company to reduce cost on car rental expenses.  
 
-- URL: *https://github.com/amansinha16*
-- Find here all the data that have been use for this presentation and also for the first part of the data Science Project: "First, you will create a Shiny application and deploy it on Rstudio's servers.Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application."
 
--"Since the beginning of the Data Science Specialization, we've noticed the unbelievable passion students have about our courses and the generosity they show toward each other on the course forums. A couple students have created quality content around the subjects we discuss, and many of these materials are so good we feel that they should be shared with all of our students."
+>The app developed for the first part of the assignment is avalilable at: URL:https://amansinha.shinyapps.io/server
+
+>Source code for ui.R and server.R files are available on the GitHub at: https://github.com/amansinha16/developing-data-products
+
+>The mtcars dataset is included in R
 
 
 ---
@@ -32,7 +33,7 @@ widgets: bootstrap
 ### Motor Trend Car Road Tests
 
 > This reproducible pitch presentation is linked to an application designed for a company to reduce cost on car rental expenses.
->The app developed for the first part of the assignment is avalilable at: URL: *https://amansinha.shinyapps.io/serve*
+>The app developed for the first part of the assignment is avalilable at: URL: *https://amansinha.shinyapps.io/server*
 >Source code for ui.R and server.R files are available on the GitHub at:URL: *https://github.com/amansinha16/developing-data-products*
 >The mtcars dataset is included in R
 
@@ -74,7 +75,7 @@ head(mtcars, 3)
 
 ---
 
-## Analysis - main code
+## Analysis - Main code
 
 ```r
 library(shiny)

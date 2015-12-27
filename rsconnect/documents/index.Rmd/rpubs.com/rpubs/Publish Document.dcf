@@ -2,6 +2,6 @@ name: Publish Document
 account: rpubs
 server: rpubs.com
 bundleId:
-        https://api.rpubs.com/api/v1/document/138091/2bc770f70ea84c90961d8b5b2f5749e8
-url: http://rpubs.com/amansinha/138091
-when: 1451241738.45854
+        https://api.rpubs.com/api/v1/document/138178/bafbca7e0a52415995b583f57a66a4c6
+url: http://rpubs.com/amansinha/138178
+when: 1451245361.0196
