@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+bundleId:
+        https://api.rpubs.com/api/v1/document/138091/2bc770f70ea84c90961d8b5b2f5749e8
+url: http://rpubs.com/amansinha/138091
+when: 1451241738.45854
